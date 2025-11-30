@@ -99,22 +99,6 @@ O teste final: um Agente Cognitivo operando num ambiente simulado de 5 canais di
 ---
 
 
-## Como Executar
-
-1.  **Clone o repositório:**
-    ```bash
-    git clone [https://github.com/SEU_USUARIO/cognitive-radio-satellite.git](https://github.com/SEU_USUARIO/cognitive-radio-satellite.git)
-    ```
-2.  **Instale as dependências:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-3.  **Execute o Notebook:**
-    Abra o arquivo `notebooks/RadioCognitivo_Final.ipynb` no Jupyter ou Google Colab.
-
----
-
-
 ## Autoria
 
 Projeto desenvolvido por **Lana Alves Vieira Gonzaga** para o curso de Residência em Tecnologias Aeroespaciais do **Instituto Hardware BR (HBR)**.

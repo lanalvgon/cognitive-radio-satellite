@@ -48,6 +48,7 @@ Para entender as limitações, analisamos quais modulações são confundidas en
 
 * **Análise:** A diagonal clara indica alta taxa de acerto. As confusões observadas são estruturais e esperadas (ex: QAM64 sendo classificado como QAM16 em baixo SNR), o que não compromete a detecção de "canal ocupado".
 
+<<<<<<< HEAD:README.md.txt
 ### 3. Simulação de Alocação Dinâmica 🛰️
 O teste final: um Agente Cognitivo operando num ambiente simulado de 5 canais dinâmicos.
 
@@ -61,7 +62,7 @@ O teste final: um Agente Cognitivo operando num ambiente simulado de 5 canais di
 
 ---
 
-## 💻 Como Executar
+## Como Executar
 
 ### Pré-requisitos
 * Python 3.8+
@@ -85,12 +86,27 @@ O teste final: um Agente Cognitivo operando num ambiente simulado de 5 canais di
 
 ---
 
-## 📄 Estrutura do Repositório
+## Estrutura do Repositório
 
 ```text
 ├── images/          # Gráficos e resultados visuais
 ├── models/          # Modelos treinados (.keras/.h5)
 ├── notebooks/       # Código fonte principal (Jupyter Notebook)
-├── experiments/     # (Legado) Versões anteriores com geradores em disco
+├── experiments/     # Contém implementações legadas e testes de engenharia, incluindo a abordagem baseada em **Geradores de Dados (`keras.utils.Sequence`)** e pipeline `tf.data` para leitura em disco, que serviram de base para a otimização final. |
 ├── requirements.txt # Dependências do projeto
 └── README.md        # Documentação
+=======
+## Como Executar
+1. Clone este repositório.
+2. Baixe o dataset [RadioML 2018.01A](https://www.kaggle.com/datasets/pinxau1000/radioml2018).
+3. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
+>>>>>>> 040d14bf3e36ea29387c6b64b50456716a97e6f8:README.md
+
+## Autoria
+
+Projeto desenvolvido por **Lana Alves Vieira Gonzaga** para o curso de Residência em Tecnologias Aeroespaciais do **Instituto Hardware BR (HBR)**.
+
+---
+*Este projeto é open-source sob a licença MIT.*

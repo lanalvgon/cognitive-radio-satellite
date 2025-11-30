@@ -86,17 +86,18 @@ O teste final: um Agente Cognitivo operando num ambiente simulado de 5 canais di
 
 ---
 
+
 ## Estrutura do Repositório
 
-```text
-├── images/          # Gráficos e resultados visuais
-├── models/          # Modelos treinados (.keras/.h5)
-├── notebooks/       # Código fonte principal (Jupyter Notebook)
-├── experiments/     # Contém implementações legadas e testes de engenharia, incluindo a abordagem baseada em **Geradores de Dados (`keras.utils.Sequence`)** e pipeline `tf.data` para leitura em disco, que serviram de base para a otimização final. |
-├── requirements.txt # Dependências do projeto
-└── README.md        # Documentação
+| Pasta | Descrição |
+| :--- | :--- |
+| **`notebooks/`** | Contém o código fonte final (`.ipynb`) com a implementação otimizada (RAM). |
+| **`experiments/`** | Contém implementações legadas, incluindo a abordagem com Geradores de Dados e pipeline `tf.data`. |
+| **`models/`** | Arquivos do modelo treinado (`.keras`). |
+| **`images/`** | Gráficos e resultados visuais gerados pelo projeto. |
 
 ---
+
 
 ## Como Executar
 
@@ -113,9 +114,11 @@ O teste final: um Agente Cognitivo operando num ambiente simulado de 5 canais di
 
 ---
 
+
 ## Autoria
 
 Projeto desenvolvido por **Lana Alves Vieira Gonzaga** para o curso de Residência em Tecnologias Aeroespaciais do **Instituto Hardware BR (HBR)**.
 
 ---
+
 *Este projeto é open-source sob a licença MIT.*

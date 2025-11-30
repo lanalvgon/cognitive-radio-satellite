@@ -95,14 +95,23 @@ O teste final: um Agente Cognitivo operando num ambiente simulado de 5 canais di
 ├── experiments/     # Contém implementações legadas e testes de engenharia, incluindo a abordagem baseada em **Geradores de Dados (`keras.utils.Sequence`)** e pipeline `tf.data` para leitura em disco, que serviram de base para a otimização final. |
 ├── requirements.txt # Dependências do projeto
 └── README.md        # Documentação
-=======
+
+---
+
 ## Como Executar
-1. Clone este repositório.
-2. Baixe o dataset [RadioML 2018.01A](https://www.kaggle.com/datasets/pinxau1000/radioml2018).
-3. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
->>>>>>> 040d14bf3e36ea29387c6b64b50456716a97e6f8:README.md
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/SEU_USUARIO/cognitive-radio-satellite.git](https://github.com/SEU_USUARIO/cognitive-radio-satellite.git)
+    ```
+2.  **Instale as dependências:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  **Execute o Notebook:**
+    Abra o arquivo `notebooks/RadioCognitivo_Final.ipynb` no Jupyter ou Google Colab.
+
+---
 
 ## Autoria
 

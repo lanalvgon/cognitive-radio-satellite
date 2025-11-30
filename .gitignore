@@ -1,0 +1,45 @@
+#Arquivos de Dados Gigantes 
+
+*.h5
+*.hdf5
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.pkl
+*.npy
+*.npz
+
+#Credenciais e Segredos 
+
+kaggle.json
+.env
+secrets.json
+
+#Lixo do Jupyter/Colab 
+
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+#Lixo do Python (Cache)
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+#Ambientes Virtuais
+
+env/
+venv/
+.venv/
+
+#Configurações de IDEs 
+
+.vscode/
+.idea/
+
+#Pastas de Logs ou Temporários
+
+logs/
+output/
+tmp/

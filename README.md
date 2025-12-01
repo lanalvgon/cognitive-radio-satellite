@@ -71,7 +71,7 @@ O teste final: um Agente Cognitivo operando num ambiente simulado de 5 canais di
 ### Passo a Passo
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/SEU_USUARIO/cognitive-radio-satellite.git](https://github.com/SEU_USUARIO/cognitive-radio-satellite.git)
+    git clone [https://github.com/lanalvgon/cognitive-radio-satellite.git](https://github.com/lanalvgon/cognitive-radio-satellite.git)
     cd cognitive-radio-satellite
     ```
 
